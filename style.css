@@ -1,0 +1,78 @@
+  
+body
+{
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a{
+    color: blue;
+}
+
+.topo_links
+{
+    display: flex;
+
+}
+
+.Direita
+{
+    justify-content: flex-end;
+}
+
+.Centro
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+    
+}
+
+
+.Inicio
+{
+    justify-content: flex-start;
+}
+
+.Titulo
+{
+    background-color: bisque;
+    text-align: center;
+    padding: 80px;
+    
+}
+
+.empresa
+{
+    background-color: rgb(240, 248, 255);
+    text-align: justify;
+    padding: 20px;
+}
+
+.conceito
+{
+
+    background-color: rgba(103, 103, 103, 0.562);
+    text-align: justify;
+    padding: 20px;
+}
+.galeria
+{
+    display: inline-block;
+    width: 25%;
+    margin-right: 3.33%;
+}
+
+.galeria_div
+{
+    text-align: center;
+    padding: 20px;
+}
